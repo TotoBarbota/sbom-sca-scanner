@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'postgres:bookworm'
+          default: 'hello-world:nanoserver-ltsc2025'
 
 # env:
 #   REGISTRY: ghcr.io
