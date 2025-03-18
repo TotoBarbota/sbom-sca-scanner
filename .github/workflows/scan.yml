@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mysql:8.0.41-debian'
+          default: 'bitnami/mysql:latest'
 
 # env:
 #   REGISTRY: ghcr.io
