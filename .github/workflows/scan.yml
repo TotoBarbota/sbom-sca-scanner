@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'hello-world:linux'
+          default: 'docker:latest'
 
 # env:
 #   REGISTRY: ghcr.io
