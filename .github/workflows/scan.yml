@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ubuntu:noble-20250127'
+          default: 'traefik:windowsservercore-ltsc2022'
 
 # env:
 #   REGISTRY: ghcr.io
