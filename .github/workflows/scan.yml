@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'bitnami/mysql:latest'
+          default: 'ubuntu:noble-20250127'
 
 # env:
 #   REGISTRY: ghcr.io
